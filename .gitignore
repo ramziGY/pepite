@@ -1,0 +1,32 @@
+# --- Données personnelles : jamais committées ---
+docs/private/
+profil.local.yaml
+*.local.yaml
+
+# --- Base locale, exports, journal ---
+data/
+*.db
+*.mv.db
+*.trace.db
+
+# --- Build Java / Maven ---
+target/
+*.class
+*.log
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/
+
+# --- Claude Code : réglages locaux et mémoire perso ---
+.claude/settings.local.json
+CLAUDE.local.md
+
+# --- Navigateur (profil Chrome de Playwright) ---
+.playwright/
+chrome-profile/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
